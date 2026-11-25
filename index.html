@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10102b">
+  <meta name="description" content="Una felicitación especial de cumpleaños para Kimo Manuel.">
+  <title>Feliz cumpleaños, Kimo Manuel ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="stars" aria-hidden="true"></div>
+  <div id="confetti" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">👑 Kimo Manuel ✨</a>
+    <nav>
+      <a href="#inicio">⌂ Inicio</a>
+      <a href="#mensaje">✦ Mensaje</a>
+      <a href="#deseos">🎁 Deseos</a>
+      <a href="#sorpresa">♡ Sorpresa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span>
+      <div class="hero-content">
+        <p class="eyebrow">✦ Hoy es un día especial ✦</p>
+        <h1>¡Feliz cumpleaños!<span>Kimo Manuel</span></h1>
+        <p class="intro">Que comience una nueva aventura llena de momentos increíbles, risas, nuevas experiencias y muchísimas razones para ser feliz. 🥳</p>
+        <div class="actions">
+          <a class="button primary" href="#mensaje">💌 Leer tu mensaje</a>
+          <button class="button secondary" id="confettiButton">🎉 ¡Lanzar confeti!</button>
+        </div>
+        <p class="scroll-hint">↓ Sigue bajando, hay algo preparado para ti ↓</p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="mensaje">
+      <article class="panel">
+        <p class="eyebrow">Una felicitación especial</p>
+        <h2>Un mensaje para ti, primo ✨</h2>
+        <div class="message">
+          <p>Querido <strong>Kimo Manuel</strong>:</p>
+          <p>¡Muchas felicidades! Espero que hoy te la pases increíble, que disfrutes muchísimo tu día y que nunca te falten motivos para sonreír.</p>
+          <p>Que este nuevo año venga acompañado de buenas experiencias, grandes oportunidades, salud y muchos momentos que se conviertan en recuerdos inolvidables. Sigue siendo esa persona única, disfruta cada etapa y ve por todo lo que te propongas.</p>
+          <p>Y recuerda que, además de cumplir años, hoy toca comer pastel, recibir regalos y pasarla de lo mejor. ¡Te lo mereces!</p>
+        </div>
+        <p class="signature">¡Un abrazo enorme, primo! 💜</p>
+      </article>
+    </section>
+
+    <section class="section reveal" id="deseos">
+      <article class="panel">
+        <p class="eyebrow">Para este nuevo capítulo</p>
+        <h2>Una bolsita de buenos deseos 🎁</h2>
+        <p class="message">Que este año venga cargado de cosas bonitas:</p>
+        <div class="wishes">
+          <div class="wish"><span>🍀</span><h3>Mucha salud</h3><p>Para disfrutar cada aventura.</p></div>
+          <div class="wish"><span>😂</span><h3>Muchas risas</h3><p>Que nunca falten buenos momentos.</p></div>
+          <div class="wish"><span>🚀</span><h3>Grandes logros</h3><p>Que cumplas todo lo que sueñas.</p></div>
+          <div class="wish"><span>💜</span><h3>Mucha felicidad</h3><p>Hoy y durante todo el año.</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section reveal" id="sorpresa">
+      <article class="panel surprise">
+        <div class="cake" aria-hidden="true">🎂🎈🎊</div>
+        <p class="eyebrow">Una última cosita...</p>
+        <h2>¡Hay una sorpresa para ti!</h2>
+        <p>Ya casi termina tu recorrido, Kimo. Pulsa el botón para abrir tu regalo virtual.</p>
+        <button class="button primary" id="surpriseButton">🎁 Abrir mi sorpresa</button>
+        <div class="surprise-box" id="surpriseBox" hidden>
+          <h3>¡Que tengas un año épico, Kimo! ⭐</h3>
+          <p>Que la vida te sorprenda con cosas buenas, que tus planes salgan incluso mejor de lo esperado y que siempre tengas cerca a personas con quienes compartir tu alegría.</p>
+          <div class="final-emojis">🥳 🎂 💫 💜</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>Hecho con cariño para <strong>Kimo Manuel</strong> · ¡Feliz cumpleaños! ✨</footer>
+</body>
+</html>
